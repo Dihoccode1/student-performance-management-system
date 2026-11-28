@@ -12,7 +12,7 @@ public class StudentService {
     private final IStudentRepository repository;
 
 
-    private StudentService(IStudentRepository repository) {
+    public StudentService(IStudentRepository repository) {
         this.repository = repository;
     }
 
