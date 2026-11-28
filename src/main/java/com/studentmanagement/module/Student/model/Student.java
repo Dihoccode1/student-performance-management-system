@@ -4,4 +4,8 @@ public record Student(String studentId, String firstName, String lastName) {
     public String du() {
         return null;
     }
+
+    public String su() {
+        return null;
+    }
 }

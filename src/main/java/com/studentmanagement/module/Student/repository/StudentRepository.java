@@ -39,7 +39,6 @@ public class StudentRepository implements IStudentRepository {
             FROM students
             WHERE first_name ILIKE ?
               AND last_name ILIKE ?
-            ORDER BY student_id
             """;
 
     private static final String UPDATE_SQL = """
